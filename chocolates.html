@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolates - Sweet Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff6f61;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff3f31;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 0;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            justify-content: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            background-color: white;
+            width: calc(30% - 2em); /* Adjusted width to make the boxes wider */
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1em;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .product p {
+            color: #666;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .buy-button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buy-button:hover {
+            background-color: #ff3f31;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Chocolates</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="chocolates.html">Chocolates</a>
+        <a href="candies.html">Candies</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 class="section-title">Chocolates</h2>
+        <div class="product-grid">
+            <!-- Repeat this product block for each chocolate -->
+            <div class="product">
+                <img src="chocolate1.jpg" alt="Chocolate 1">
+                <h2>Delicious Milk Chocolate</h2>
+                <p>Rich and creamy milk chocolate made from the finest cocoa beans.</p>
+                <p class="price">$5.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate2.jpg" alt="Chocolate 2">
+                <h2>Dark Chocolate Delight</h2>
+                <p>Exquisite dark chocolate with a hint of vanilla.</p>
+                <p class="price">$6.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate3.jpg" alt="Chocolate 3">
+                <h2>White Chocolate Dream</h2>
+                <p>Luxurious white chocolate with a smooth finish.</p>
+                <p class="price">$5.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate4.jpg" alt="Chocolate 4">
+                <h2>Hazelnut Crunch</h2>
+                <p>Creamy milk chocolate with crunchy hazelnuts.</p>
+                <p class="price">$6.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate5.jpg" alt="Chocolate 5">
+                <h2>Mint Chocolate</h2>
+                <p>Refreshing mint chocolate with a cool finish.</p>
+                <p class="price">$5.75</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate6.jpg" alt="Chocolate 6">
+                <h2>Caramel Filled</h2>
+                <p>Decadent milk chocolate filled with gooey caramel.</p>
+                <p class="price">$6.25</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate7.jpg" alt="Chocolate 7">
+                <h2>Almond Delight</h2>
+                <p>Rich dark chocolate with roasted almonds.</p>
+                <p class="price">$6.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate8.jpg" alt="Chocolate 8">
+                <h2>Sea Salt Caramel</h2>
+                <p>Milk chocolate with sea salt caramel filling.</p>
+                <p class="price">$6.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate9.jpg" alt="Chocolate 9">
+                <h2>Orange Zest</h2>
+                <p>Dark chocolate with a hint of orange zest.</p>
+                <p class="price">$5.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate10.jpg" alt="Chocolate 10">
+                <h2>Raspberry Dark Chocolate</h2>
+                <p>Dark chocolate infused with raspberry flavor.</p>
+                <p class="price">$6.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate11.jpg" alt="Chocolate 11">
+                <h2>Peanut Butter Chocolate</h2>
+                <p>Milk chocolate with creamy peanut butter center.</p>
+                <p class="price">$5.75</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate12.jpg" alt="Chocolate 12">
+                <h2>Coconut Chocolate</h2>
+                <p>Milk chocolate with coconut flakes.</p>
+                <p class="price">$5.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate13.jpg" alt="Chocolate 13">
+                <h2>Toffee Crunch</h2>
+                <p>Milk chocolate with toffee bits.</p>
+                <p class="price">$6.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate14.jpg" alt="Chocolate 14">
+                <h2>Berry Bliss</h2>
+                <p>Dark chocolate with dried berries.</p>
+                <p class="price">$6.25</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate15.jpg" alt="Chocolate 15">
+                <h2>Espresso Dark Chocolate</h2>
+                <p>Dark chocolate with a hint of espresso.</p>
+                <p class="price">$6.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate16.jpg" alt="Chocolate 16">
+                <h2>Ginger Spice</h2>
+                <p>Dark chocolate with a touch of ginger spice.</p>
+                <p class="price">$5.75</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate17.jpg" alt="Chocolate 17">
+                <h2>Spicy Chili Chocolate</h2>
+                <p>Dark chocolate with a kick of chili.</p>
+                <p class="price">$6.00</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate18.jpg" alt="Chocolate 18">
+                <h2>Lavender Chocolate</h2>
+                <p>Dark chocolate infused with lavender essence.</p>
+                <p class="price">$6.25</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate19.jpg" alt="Chocolate 19">
+                <h2>Cherry Cordial</h2>
+                <p>Milk chocolate with a cherry cordial center.</p>
+                <p class="price">$6.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <div class="product">
+                <img src="chocolate20.jpg" alt="Chocolate 20">
+                <h2>Maple Walnut</h2>
+                <p>Milk chocolate with maple walnut filling.</p>
+                <p class="price">$6.75</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Sweet Shop. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="chocolates.html">Chocolates</a>
+            <a href="candies.html">Candies</a>
+            <a href="cookies.html">Cookies</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+</body>
+</html>

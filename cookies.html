@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookies - Sweet Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6f61;
+            color: white;
+            padding: 1em;
+            text-align: center;
+        }
+        nav {
+            background-color: #ff6f61;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #ff3f31;
+        }
+        .container {
+            padding: 2em;
+        }
+        .section-title {
+            text-align: center;
+            margin-top: 0;
+        }
+        .product-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2em;
+            justify-content: center;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1em;
+            background-color: white;
+            width: calc(20% - 2em);
+            box-sizing: border-box;
+        }
+        .product img {
+            max-width: 100%;
+            border-bottom: 1px solid #ddd;
+            margin-bottom: 1em;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .product p {
+            color: #666;
+        }
+        .price {
+            font-size: 1.5em;
+            color: #333;
+        }
+        .buy-button {
+            background-color: #ff6f61;
+            color: white;
+            border: none;
+            padding: 0.5em 1em;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .buy-button:hover {
+            background-color: #ff3f31;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Our Cookies</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="chocolates.html">Chocolates</a>
+        <a href="candies.html">Candies</a>
+        <a href="cookies.html">Cookies</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <h2 class="section-title">Cookies</h2>
+        <div class="product-grid">
+            <!-- Repeat this product block for each cookie -->
+            <div class="product">
+                <img src="cookie1.jpg" alt="Cookie 1">
+                <h2>Chocolate Chip Cookie</h2>
+                <p>Classic chocolate chip cookies with a crunchy and chewy texture.</p>
+                <p class="price">$2.50</p>
+                <button class="buy-button">Buy Now</button>
+            </div>
+            <!-- Add 19 more products in the same format -->
+        </div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="chocolates.html">Chocolates</a>
+            <a href="candies.html">Candies</a>
+            <a href="cookies.html">Cookies</a>
+        </div>
+        <p>&copy; 2024 Sweet Shop. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
